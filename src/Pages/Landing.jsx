@@ -3,13 +3,16 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Aboutus from "./Aboutus";
 import Testimonial from "../components/Testimonial";
+import HeroSectionOne from "./landingPageComponent/HeroSectionOne";
+import HeroSectionTwo from "./landingPageComponent/HeroSectionTwo";
 
 const Landing = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="w-full bg-white">I will continue from here tommorow</div>
+      <HeroSectionOne />
       <Aboutus />
+      <HeroSectionTwo />
       <Testimonial />
       <Footer />
     </div>
