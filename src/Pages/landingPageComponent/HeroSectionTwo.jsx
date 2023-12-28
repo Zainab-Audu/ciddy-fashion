@@ -3,7 +3,7 @@ import ShopNowButton from "../../components/ShopNowButton";
 
 const HeroSectionTwo = () => {
   return (
-    <div className="flex justify-center items-center py-5 lg:px-20">
+    <div className="flex justify-center items-center py-5 lg:px-20 h-screen">
       <div className="flex flex-col gap-3 items-center">
         <p className="text-[#000] font-extrabold text-[2rem]">New Arrivals</p>
         <p className="text-[1rem] font-mono tracking-wide text-center">

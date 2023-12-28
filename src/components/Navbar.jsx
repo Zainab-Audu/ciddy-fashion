@@ -6,7 +6,7 @@ import Searcharea from "./Searcharea";
 const Navbar = () => {
   return (
     <div className="shadow-lg sticky w-full top-0 left-0 z-[20]  mx-auto item-center ">
-      <div className="md:flex items-center justify-between bg-slate-900 py-4">
+      <div className="md:flex items-center justify-between bg-[#040734] py-4">
         <div className="font-bold  pl-20  ">
           <img
             src="/Images/CiddyLogo.png"
@@ -16,12 +16,14 @@ const Navbar = () => {
           />
         </div>
         <Searcharea />
-        <p className="text-white font-bold text-[40px] w-[20px]">
-          <TiShoppingCart />
-        </p>
+
         <ul className="text-white flex ">
-          <li className="mx-10">About Us</li>
-          <li className="mx-10">Contact Us</li>
+          <p className="text-white font-bold text-[40px] w-[20px]">
+            <TiShoppingCart />
+          </p>
+          <li className="mx-10">About</li>
+          <li className="mx-10">Contact</li>
+          <li className="mx-10">Shop</li>
 
           <button></button>
         </ul>

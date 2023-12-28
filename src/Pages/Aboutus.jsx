@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutus = () => {
   return (
-    <div className="bg-[#040734] shadow-lg w-full flex flex-col items-center my-20 ">
+    <div className="bg-[#040734] shadow-lg w-full flex flex-col items-center my-20 h-screen ">
       <div className="flex flex-col justify-center items-center p-10">
         <h1 className="text-white text-bold text-[26px] underline  ">
           About Ciddy Fashion
