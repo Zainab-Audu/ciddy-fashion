@@ -2,7 +2,7 @@ import React from "react";
 
 const Searcharea = () => {
   return (
-    <div className="w-[100%] items-center lg:w-[70%] relative mb-10 ">
+    <div className="w-[100%] px-10 py-2 items-center lg:w-[70%] relative mb-10 ">
       <input
         type="text"
         name="search"

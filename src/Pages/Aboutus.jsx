@@ -18,12 +18,15 @@ const Aboutus = () => {
         </div>
         <div className="px-40">
           <p className="text-white text-center text-bold text-[18px]">
-            At Ciddy, we are dedicated to celebrating individuality and helping
-            you express your unique style. With a passion for fashion and a
-            commitment to quality, we curate collections that inspire confidence
-            and creativity. Join us on a journey where every outfit tells a
-            story, and fashion becomes a form of self-expression. Welcome to a
-            world of style, where you're the star of your own runway."
+            <strong>
+              At Ciddy, we are dedicated to celebrating individuality and
+              helping you express your unique style. With a passion for fashion
+              and a commitment to quality, we curate collections that inspire
+              confidence and creativity. Join us on a journey where every outfit
+              tells a story, and fashion becomes a form of self-expression.
+              Welcome to a world of style, where you're the star of your own
+              runway."
+            </strong>
           </p>
         </div>
       </div>
