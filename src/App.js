@@ -5,7 +5,7 @@ import Aboutus from "./Pages/Aboutus";
 
 const App = () => {
   return (
-    <div className="bg-slate-300 w-full h-screen">
+    <div className="bg-slate-300 w-full h-screen ">
       <BrowserRouter>
         <Routes>
           <Route index element={<Landing />} />
