@@ -5,6 +5,8 @@ import Aboutus from "./Pages/Aboutus";
 import FemaleSection from "./Pages/FemaleSection";
 import Cartpage from "./Pages/Checkoutpages/Cartpage";
 import Cartcheckout from "./Pages/Checkoutpages/Cartcheckout";
+import Summary from "./Pages/summary/Summary";
+
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
         <Route path="/FemaleSection" element={<FemaleSection />} />
         <Route path="/Cartpage" element={<Cartpage />} />
         <Route path="/Cartcheckout" element={<Cartcheckout />} />
+        <Route path="/summary" element={<Summary />} />
+
       </Routes>
     </div>
   );
