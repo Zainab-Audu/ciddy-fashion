@@ -21,6 +21,7 @@ const Navbar = () => {
           <p className="text-white font-bold text-[40px] w-[20px] cursor-pointer">
             <TiShoppingCart />
           </p>
+
           <Link className="hover:text-slate-200 duration-300">About</Link>
           <Link className="hover:text-slate-200 duration-300">Contact</Link>
           <Link
