@@ -20,9 +20,6 @@ const FemaleSection = () => {
                 height="80"
               />
             </div>
-            <div className=" bg-slate-400">
-              <p>Denim Hoodie</p>
-            </div>
           </div>
           <Searcharea />
 

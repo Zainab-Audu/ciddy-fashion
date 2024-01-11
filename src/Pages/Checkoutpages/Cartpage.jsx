@@ -1,51 +1,39 @@
 import React from "react";
-import Sidebar from "../../components/Sidebar";
 import Footer from "../../components/Footer";
-import Searcharea from "../../components/Searcharea";
-import { TiShoppingCart } from "react-icons/ti";
-import { Link } from "react-router-dom";
+import Navbar from "../../components/Navbar";
+import { MdDelete } from "react-icons/md";
+import QuantityIndicator from "../../components/QuantityIndicator";
+import CartSummary from "../../components/CartSummary";
 
 const Cartpage = () => {
   return (
     <div className="bg-white">
-      <div className="shadow-lg sticky w-full top-0 left-0 z-[20] mx-auto item-center ">
-        <div className="md:flex items-center justify-between  bg-[#040734] py-4">
-          <div className="">
-            <div className="font-bold  bg-[#8183a7] w-[100%] ">
-              <img
-                src="/Images/CiddyLogo.png"
-                alt="Ciddy's Logo "
-                width="80"
-                height="80"
-              />
-            </div>
-            <div className=" ">
-              <p></p>
-            </div>
-          </div>
-          <Searcharea />
-
-          <ul className="text-white flex ">
-            <Link to={"About"} className="mx-10">
-              <p className="text-white font-bold text-[40px] w-[20px]">
-                <TiShoppingCart />
-              </p>
-            </Link>
-          </ul>
-        </div>
-      </div>
-      <div className="flex  py-5 lg:px-20 h-screen">
-        <Sidebar />
-
-        <div className="flex items-center gap-4">
-          <div className="bg-black/40 relative">
+      <Navbar />
+      <div className="flex w-[100%]  py-5 lg:px-20 h-screen">
+        <div className="flex w-[70%]">
+          <div className="bg-slate-20 flex gap-20">
             <img
               src="https://cdn.hashnode.com/res/hashnode/image/upload/v1703651184467/39d5a85a-c9db-48af-8914-34b0897bc86a.jpeg"
-              alt=""
-              className="h-[15rem] w-[15rem] mix-blend-overlay"
+              alt="Female wear"
+              className="h-[15rem] w-[15rem] rounded-lg bg-slate-900 border-slate-900 "
             />
-            <div className=" absolute top-5"></div>
+            <div className="flex flex-col  text-bold gap-3">
+              <p className="text-bold">Denim Hoodie</p>
+              <h3>In Stock</h3>
+              <h4 className="text-[12px]">Size 3</h4>
+            </div>
+            <div className="flex flex-col gap-3">
+              <p>&#8358;200 </p>
+              <QuantityIndicator />
+              <p className="flex gap-5">
+                Uncart
+                <MdDelete className="text-[30px]" />
+              </p>
+            </div>
           </div>
+        </div>
+        <div className="w-[30%]">
+          <CartSummary />
         </div>
       </div>
       <Footer />
