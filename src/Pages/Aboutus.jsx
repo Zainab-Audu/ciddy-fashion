@@ -17,7 +17,7 @@ const Aboutus = () => {
           />
         </div>
         <div className="px-40">
-          <p className="text-white text-center text-bold text-[18px]">
+          <p className="text-white text-center  text-[18px]">
             <strong>
               At Ciddy, we are dedicated to celebrating individuality and
               helping you express your unique style. With a passion for fashion
