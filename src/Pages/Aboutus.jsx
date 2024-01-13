@@ -2,7 +2,10 @@ import React from "react";
 
 const Aboutus = () => {
   return (
-    <div className="bg-[#040734] shadow-lg w-full flex flex-col items-center my-20 h-screen ">
+    <div
+      id="about"
+      className="bg-[#040734] shadow-lg w-full flex flex-col items-center my-20  "
+    >
       <div className="flex flex-col justify-center items-center p-10">
         <h1 className="text-white text-bold text-[26px] underline  ">
           About Ciddy Fashion
@@ -12,8 +15,8 @@ const Aboutus = () => {
           <img
             src="/Images/CiddyLogo.png"
             alt="Ciddy's Logo "
-            width="650"
-            height="150"
+            width="500"
+            height="100"
           />
         </div>
         <div className="px-40">

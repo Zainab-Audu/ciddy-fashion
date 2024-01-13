@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
           <h2 className="font-bold text-[1rem]">OTHER LINKS</h2>
           <ul className="flex flex-col gap-1 text-[0.75rem]">
             <li>
-              <Link to="/about">About</Link>
+              <Link to="about">About</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
@@ -29,7 +29,7 @@ const Footer = () => {
           <h2 className="font-bold text-[1rem]">CONTACT US</h2>
           <ul className="flex flex-col gap-1 text-[0.75rem]">
             <li>+234 8132 624 679</li>
-            <li>Ciddy@gmail.com</li>
+            <Link to="">Ciddy@gmail.com</Link>
           </ul>
         </div>
         <div className="flex flex-col gap-1 md:gap-3">
@@ -37,14 +37,24 @@ const Footer = () => {
           <ul>
             <li className="flex gap-5">
               <span className="text-[22px] cursor-pointer hover:text-slate-300 duration-300">
-                <a href>
+                <Link to="">
                   <FaLinkedin />
-                </a>
+                </Link>
               </span>
               <span className="text-[22px] cursor-pointer hover:text-slate-300 duration-300">
-                <a href>
+                <Link to="">
+                  <FaInstagram />
+                </Link>
+              </span>
+              <span className="text-[22px] cursor-pointer hover:text-slate-300 duration-300">
+                <Link to="">
+                  <FaFacebook />
+                </Link>
+              </span>
+              <span className="text-[22px] cursor-pointer hover:text-slate-300 duration-300">
+                <Link to="/">
                   <FaTwitter />
-                </a>
+                </Link>
               </span>
             </li>
           </ul>
