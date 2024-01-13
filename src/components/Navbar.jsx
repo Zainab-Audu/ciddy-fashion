@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link className="hover:text-slate-200 duration-300">About</Link>
           <Link className="hover:text-slate-200 duration-300">Contact</Link>
           <Link
-            to="/FemaleSection"
+            to="/catalogue"
             className="hover:text-slate-200 duration-300"
           >
             Shop
