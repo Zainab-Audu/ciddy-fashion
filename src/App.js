@@ -7,18 +7,17 @@ import Cartpage from "./Pages/Checkoutpages/Cartpage";
 import Cartcheckout from "./Pages/Checkoutpages/Cartcheckout";
 import Summary from "./Pages/summary/Summary";
 
-
 const App = () => {
   return (
     <div className="bg-slate-300 w-full h-screen">
       <Routes>
         <Route index element={<Landing />} />
         <Route path="/Aboutus" element={<Aboutus />} />
-        <Route path="/FemaleSection" element={<FemaleSection />} />
-        <Route path="/Cartpage" element={<Cartpage />} />
+        <Route path="/femaleSection" element={<FemaleSection />} />
+        <Route path="/cartcheckout" element={<Cartcheckout />} />
+        <Route path="/cartpage" element={<Cartpage />} />
         <Route path="/Cartcheckout" element={<Cartcheckout />} />
         <Route path="/summary" element={<Summary />} />
-
       </Routes>
     </div>
   );

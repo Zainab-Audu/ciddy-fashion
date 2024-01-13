@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
@@ -22,12 +23,18 @@ const Sidebar = () => {
       >
         <div className="p-4">
           <ul className="mt-4">
-            <li className="py-2 hover:bg-gray-700 cursor-pointer">
+            <Link
+              to={"/femaleSection"}
+              className="py-2 hover:bg-gray-700 cursor-pointer"
+            >
               Men's Clothing
-            </li>
-            <li className="py-2 hover:bg-gray-700 cursor-pointer">
+            </Link>
+            <Link
+              to={"/maleSection"}
+              className="py-2 hover:bg-gray-700 cursor-pointer"
+            >
               Women's Clothing
-            </li>
+            </Link>
           </ul>
         </div>
       </div>

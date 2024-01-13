@@ -1,43 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Searcharea from "../components/Searcharea";
-import { TiShoppingCart } from "react-icons/ti";
 import Footer from "../components/Footer";
 import ShopNowButton from "../components/ShopNowButton";
 import Sidebar from "../components/Sidebar";
+import Navbar from "../components/Navbar";
 
 const FemaleSection = () => {
   return (
     <div className="bg-white">
       <div className="shadow-lg sticky w-full top-0 left-0 z-[20] mx-auto item-center ">
-        <div className="md:flex items-center justify-between bg-[#040734] py-4">
-          <div className="">
-            <div className="font-bold   ">
-              <img
-                src="/Images/CiddyLogo.png"
-                alt="Ciddy's Logo "
-                width="80"
-                height="80"
-              />
-            </div>
-          </div>
-          <Searcharea />
-
-          <ul className="text-white flex ">
-            <p className="text-white font-bold text-[40px] w-[20px]">
-              <TiShoppingCart />
-            </p>
-            <Link to={"About"} className="mx-10">
-              About
-            </Link>
-            <Link to={"Contact"} className="mx-10">
-              Contact
-            </Link>
-            <Link to={""} className="mx-10">
-              Shop Male
-            </Link>
-          </ul>
-        </div>
+        <Navbar />
       </div>
       <div className="flex  py-5 lg:px-20 h-screen">
         <Sidebar />

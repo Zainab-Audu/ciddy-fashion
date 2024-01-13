@@ -7,8 +7,8 @@ const Cartcheckout = () => {
   return (
     <div className="">
       <Navbar />
-      <div className="w-full bg-gradient-to-t from-[#faf8fa] via-[#e4e2e7] to-[#c9c7cd] text-black flex flex-row">
-        <div className=" w-[80%] bg-gradient-to-t from-[#faf8fa] via-[#e4e2e7] to-[#c9c7cd] text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-5    ">
+      <div className="w-full bg-gradient-to-t from-[#faf8fa] via-[#f9f8fb] to-[#c9c7cd] text-black flex flex-row">
+        <div className=" w-[80%]  text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-5    ">
           <div className="w-[100%] lg:w-[80%] flex flex-col justify-center items-center">
             <h1 className=" text-[30px] text-black lg:font-bold ">
               Shipping Information
@@ -123,9 +123,9 @@ const Cartcheckout = () => {
               </button>
             </form>
           </div>
-          <div className=" w-[100%] lg:w-[20%] pt-10"></div>
+          <div className=" w-[100%] lg:w-[20%] pt-5"></div>
         </div>
-        <div className="w-[20%] mt-32 px-10">
+        <div className="w-[20%] mt-32 px-5">
           <CartSummary />
         </div>
       </div>

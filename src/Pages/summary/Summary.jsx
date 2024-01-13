@@ -7,6 +7,7 @@ import {
 } from "react-icons/md";
 import { CiShoppingCart } from "react-icons/ci";
 import { TbCurrencyNaira } from "react-icons/tb";
+import Footer from "../../components/Footer";
 // import Footer from "../../components/Footer";
 
 const Summary = () => {
@@ -86,7 +87,7 @@ const Summary = () => {
           </p>
         </section>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

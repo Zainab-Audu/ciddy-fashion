@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const CartSummary = () => {
   const deliveryFee = 5;
@@ -51,9 +52,11 @@ const CartSummary = () => {
               <span>Total:</span>
               <span>&#8358;{calculateTotal().toFixed(2)}</span>
             </div>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-lg mt-10">
-              Proceed to Checkout
-            </button>
+            <Link to="/cartCheckout">
+              <button className="bg-[#ff6b6b] text-white px-4 py-2 rounded-lg mt-10">
+                Proceed to Checkout
+              </button>
+            </Link>
           </div>
         </>
       )}
