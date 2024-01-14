@@ -93,7 +93,7 @@ const Popular = () => {
 </div>)
 
   return (
-    <div>
+    <div className='w-[90%] mx-auto'>
         <h3 className='my-4 text-[24px] font-bold text-center capitalize'>Popular demands</h3>
     <div className='lg:flex md:flex flex-col lg:flex-row md:flex-row relative justify-between hidden'>
         {popularItems}
