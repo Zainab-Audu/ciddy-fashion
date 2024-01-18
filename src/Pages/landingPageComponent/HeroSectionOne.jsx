@@ -29,7 +29,7 @@ const HeroSectionOne = () => {
   };
   return (
     <React.Fragment>
-      <div className="bg-black/70 relative">
+      <div className="bg-black/60 relative">
         <div
           className="w-full h-screen bg-[#433A3A]  bg-cover bg-center mix-blend-overlay object-cover absolute "
           style={heroStyle}

@@ -7,7 +7,7 @@ const Cartcheckout = () => {
   return (
     <div className="">
       <Navbar />
-      <div className=" w-full bg-gradient-to-t from-[#faf8fa] via-[#f9f8fb] to-[#c9c7cd] text-black flex  lg:flex-row ">
+      <div className=" w-[100%] bg-gradient-to-t from-[#faf8fa] via-[#f9f8fb] to-[#c9c7cd] text-black flex justify-between flex-col lg:flex-row md:flex-row ">
         <div className=" w-[80%]  text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-5    ">
           <div className="w-[100%] lg:w-[80%] flex flex-col justify-center items-center pb-5">
             <h1 className=" text-[30px] text-black lg:font-bold ">
@@ -125,8 +125,7 @@ const Cartcheckout = () => {
           </div>
         </div>
         <div className="w-[20%] mt-32 px-5">
-          <Cartcheckoutsummary
-          />
+          <Cartcheckoutsummary />
         </div>
       </div>
       <Footer />

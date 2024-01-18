@@ -5,7 +5,7 @@ const SingnUp = () => {
     <div>
       <div
         id="signup"
-        className=" w-full bg-gradient-to-t from-[#faf8fa] via-[#e4e2e7] to-[#c9c7cd] text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-28 pb-32  h-screen "
+        className=" w-full bg-gradient-to-t from-[#faf8fa] via-white to-[#c9c7cd] text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-28 pb-32  h-screen "
       >
         <div className="w-[100%] lg:w-[80%] flex flex-col justify-center items-center">
           <h1 className=" text-[24px] text-black lg:font-bold ">
