@@ -17,7 +17,7 @@ const CartSummary = () => {
   };
 
   return (
-    <div className="  border border-blue-50 p-2 rounded-lg ">
+    <div className="   border border-blue-50 p-2 rounded-lg ">
       <h2 className="text-3xl justify-center items-center  font-bold mb-4">
         Summary
       </h2>
