@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const HeroSectionOne = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
@@ -40,9 +41,11 @@ const HeroSectionOne = () => {
           <p className="font-bold text-[1.5rem] ">
             Dress nice <span className="text-[#FF7F50]">stay Simple</span>
           </p>
-          <button className="bg-slate-200 px-6 py-2 text-[#000] hover:bg-slate-900 hover:text-[#FFF]">
-            Shop Now!
-          </button>
+          <Link to="/Catalogue">
+            <button className="bg-slate-200 px-6 py-2 text-[#000] hover:bg-slate-900 hover:text-[#FFF]">
+              Shop Now!
+            </button>
+          </Link>
         </div>
       </div>
     </React.Fragment>
