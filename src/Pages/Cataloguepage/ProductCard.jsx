@@ -9,6 +9,8 @@ const ProductCard = () => {
   const { dispatch } = useContext(GlobalContext);
   const addItem = () => {
     dispatch({ type: "AddToCart", payload: { ...product } });
+    alert("hello");
+    console.log("dispatch");
   };
 
   const promotionData = [
@@ -74,7 +76,7 @@ const ProductCard = () => {
           <IoMdHeartEmpty className="mb-4" />
           <FaCartShopping
             onClick={addItem}
-            className="cursor-pointer hover:text-[#b88787]"
+            className="cursor-pointer hover:text-[#1e0d0d]"
           />
         </div>
       </div>
