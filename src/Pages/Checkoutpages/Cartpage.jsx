@@ -6,9 +6,9 @@ import CartSummary from "../../components/CartSummary";
 
 const Cartpage = () => {
   return (
-    <div className="bg-white max-w-[100%] mx-auto">
+    <div className="bg-white max-w-[100%] sm:w-[70%] mx-auto">
       <Navbar />
-      <div className="flex justify-between flex-col w-[100%] pl-10  py-5 lg:px-20 lg:flex-row md:flex-row">
+      <div className="flex justify-between  flex-col w-[100%] pl-10  py-5 lg:px-20 lg:flex-row md:flex-row">
         <div className="flex w-[70%]">
           <div className="flex flex-col pb-10">
             <div className="bg-slate-20 flex gap-5 pb-3">
