@@ -1,17 +1,9 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
-import { GlobalContext } from "../../context/ProductState";
 
 const ProductCard = () => {
   const [product, setProduct] = useState([]);
-
-  const { dispatch } = useContext(GlobalContext);
-  const addItem = () => {
-    dispatch({ type: "AddToCart", payload: { ...product } });
-    alert("hello");
-    console.log("dispatch");
-  };
 
   const promotionData = [
     {
@@ -74,10 +66,7 @@ const ProductCard = () => {
         />
         <div className="absolute top-10 right-4 text-[2rem] text-[#FF6B6B] drop-shadow-[10px]">
           <IoMdHeartEmpty className="mb-4" />
-          <FaCartShopping
-            onClick={addItem}
-            className="cursor-pointer hover:text-[#1e0d0d]"
-          />
+          <FaCartShopping className="cursor-pointer hover:text-[#1e0d0d]" />
         </div>
       </div>
       <div className="px-2 py-4">
