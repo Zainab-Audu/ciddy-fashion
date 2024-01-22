@@ -1,12 +1,12 @@
 import React from "react";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
 import Cartcheckoutsummary from "../../components/Cartcheckoutsummary";
+import Navbar2 from "../../components/Navbar2";
 
 const Cartcheckout = () => {
   return (
     <div className="">
-      <Navbar />
+      <Navbar2 />
       <div className=" w-[100%] bg-gradient-to-t from-[#faf8fa] via-[#f9f8fb] to-[#c9c7cd] text-black flex justify-between flex-col lg:flex-row md:flex-row ">
         <div className=" w-[80%]  text-black flex flex-col lg:flex-row justify-center items-center lg:px-[100px] pt-5    ">
           <div className="w-[100%] lg:w-[80%] flex flex-col justify-center items-center pb-5">

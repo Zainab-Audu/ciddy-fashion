@@ -4,7 +4,7 @@ const Aboutus = () => {
   return (
     <div
       id="about"
-      className="bg-[#040734] shadow-lg  flex flex-col items-center flex-col w-[100%] pl-10  py-5 lg:px-20 lg:flex-row md:flex-row "
+      className="bg-[#040734] shadow-lg  flex  items-center flex-col w-[100%] pl-10  py-5 lg:px-20 lg:flex-row md:flex-row "
     >
       <div className="flex flex-col justify-center items-center p-10">
         <h1 className="text-white text-bold text-[26px] underline  ">

@@ -1,13 +1,13 @@
 import React from "react";
 import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar";
 import { MdDelete } from "react-icons/md";
 import CartSummary from "../../components/CartSummary";
+import Navbar2 from "../../components/Navbar2";
 
 const Cartpage = () => {
   return (
-    <div className="bg-white max-w-[100%] sm:w-[70%] mx-auto">
-      <Navbar />
+    <div className="bg-white w-[100%] ">
+      <Navbar2 />
       <div className="flex justify-between  flex-col w-[100%] pl-10  py-5 lg:px-20 lg:flex-row md:flex-row">
         <div className="flex w-[70%]">
           <div className="flex flex-col pb-10">
@@ -105,7 +105,7 @@ const Cartpage = () => {
             </div>
           </div>
         </div>
-        <div className="w-[30%]  ">
+        <div className="w-[30%]">
           <CartSummary />
         </div>
       </div>
